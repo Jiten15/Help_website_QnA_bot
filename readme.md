@@ -31,6 +31,12 @@ pip install -r requirements.txt
 ```
 
 3. Set up your Anthropic API key:
+
+
+Place API-key in main() by editing qa_agent.py file.
+
+or
+
 ```bash
 export ANTHROPIC_API_KEY='your-api-key'
 ```
@@ -138,14 +144,3 @@ Test cases cover:
 - requests
 - pytest (for testing)
 
-## License
-
-[MIT License](LICENSE)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
